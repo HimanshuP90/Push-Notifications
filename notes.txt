@@ -1,0 +1,16 @@
+DOC Link: https://github.com/web-push-libs/web-push
+
+1) npm init -y
+2) npm i web-push express body-parser
+3) create index.js file
+4) generate key for webpush using command in terminal './node_modules/.bin/web-push generate-vapid-keys'
+   output look like below:
+    =======================================
+
+    Public Key:
+    BG89PXhM56LF6vPnYe3FWKhNaWHil9iBIqq8NIDQOIGVT2b3dnN7VPoaU_sUyHBdyQxgEA1iWZQ1IZC4_Tf2WWo
+
+    Private Key:
+    1V-gbSm6ECcsihZ8HR_TogsQ-hqfaEtJdikN4yIqstE
+
+    =======================================
